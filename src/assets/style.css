@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+body {
+  background-color: #2a2b2a;
+}
+h2 {
+  font-family: 'Alkalami', serif;
+  font-size: 32px;
+  color: rgb(148, 170, 242);
+}
+p {
+  font-family: Lato;
+}
+
+input {
+  display: block;
+  margin: 2%;
+}
+
+.firsts-selects {
+  width: 40%;
+  display: inline;
+}
+.verse {
+  font-size: 21px;
+}
+
+.round {
+  border-radius: 50%;
+  width: 85px !important;
+  height: 85px;
+}
+
+.select-title {
+  margin-bottom: -20px !important;
+}
+
+.previus-btn {
+  margin-left: 5%;
+}
+.next-btn {
+  margin-left: 55%;
+}
