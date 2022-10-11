@@ -4,7 +4,7 @@ body {
 }
 h2 {
   font-family: 'Alkalami', serif;
-  font-size: 32px;
+  font-size: 4vh;
   color: rgb(148, 170, 242);
 }
 p {
@@ -20,23 +20,33 @@ input {
   width: 40%;
   display: inline;
 }
-.verse {
-  font-size: 21px;
+.view {
+  font-size: 2.5rem;
 }
+
+
 
 .round {
   border-radius: 50%;
-  width: 85px !important;
-  height: 85px;
+  width: 10rem !important;
+  height: 10rem;
+  font-size: 4rem;
 }
 
 .select-title {
-  margin-bottom: -20px !important;
-}
+  font-size: 3vh;
+  font-weight: bold;
+  margin: 2% 6%;
+} 
 
 .previus-btn {
-  margin-left: 5%;
+  margin-left: 9%;
 }
 .next-btn {
   margin-left: 55%;
+}
+
+select {
+  height: 5rem;
+  font-size: 3rem;
 }
