@@ -99,7 +99,7 @@ export const Main = () => {
               <label className="form-label text-light">Verse:</label>
             </div>
           </div>
-          <div className="col-md-12 ms-3">
+          <div className="col-md-12">
             <Chapter
               data={(e) => chapterSelected(e)}
               countOfChapter={countChapter}
