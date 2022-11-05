@@ -1,3 +1,5 @@
+[![Deployment Pipeline](https://github.com/rickyMelida/react-bible-app/actions/workflows/pipeline.yml/badge.svg)](https://github.com/rickyMelida/react-bible-app/actions/workflows/pipeline.yml)
+
 # Simple Bible App
 
 Simple Bible App is a web application developed with React

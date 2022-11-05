@@ -3,7 +3,7 @@ import uuid from 'react-uuid';
 import bibleBooks from './allBooks.json';
 
 export const Book = ({ data, bookSelected }) => {
-	const listOf_Book = bibleBooks.books.map(book => (
+	const listOfBook = bibleBooks.books.map(book => (
 		<option key={uuid()} chapter={book.chapters}>
 			{book.name}
 		</option>
@@ -26,7 +26,7 @@ export const Book = ({ data, bookSelected }) => {
 				id='book'
 				value={bookSelected}
 			>
-				{listOf_Book}
+				{listOfBook}
 			</select>
 		</>
 	);

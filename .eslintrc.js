@@ -2,6 +2,7 @@ module.exports = {
 	env: {
 		browser: true,
 		es2021: true,
+		node: true
 	},
 	settings: {
 		react: {
@@ -16,7 +17,7 @@ module.exports = {
 	},
 	plugins: ['react'],
 	rules: {
-		'react/prop-types': 'off',
+		'react/prop-types': 'warn',
 		semi: 'off',
 		'react/no-unknown-property': 'off',
 	},
