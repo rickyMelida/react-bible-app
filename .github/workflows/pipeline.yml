@@ -16,6 +16,10 @@ jobs:
         with:
           node-version: '14'
       - name: Install Dependencies
-        run: npm install
+        run: npm install --no-audit --no-found --no-optional
       - name: Lint
         run: npm run lint
+      - name: Build
+        run: npm run build
+      - name: Test
+        run: npm run test
