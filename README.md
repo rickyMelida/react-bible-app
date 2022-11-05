@@ -1,12 +1,8 @@
-
 # Simple Bible App
 
-Simple Bible App is a web application developed with React 
-Framework. And really is very simple, it's was developed with 
-educational purpose. 
-
-
-
+Simple Bible App is a web application developed with React
+Framework. And really is very simple, it's was developed with
+educational purpose.
 
 ## Features of this projects
 
@@ -15,12 +11,14 @@ educational purpose.
 - You can learn about the God Word.
 
 ## For local developement
+
 - Fork the repo
 - Then Run the following commands from the terminal
 
 ```
-npm install 
+npm install
 ```
+
 ```
 npm run start
 ```
@@ -28,9 +26,8 @@ npm run start
 ## Future Aspect
 
 - In the not too distant future I want improve its styles and responsive design.
-- Add other section 
+- Add other section
 
 ## Authors
 
 - [@rickyMelida](https://github.com/rickyMelida)
-

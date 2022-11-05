@@ -1,6 +1,6 @@
 name: Deployment Pipeline
 
-on: 
+on:
   push:
     branches:
       - master
@@ -17,3 +17,5 @@ jobs:
           node-version: '14'
       - name: Install Dependencies
         run: npm install
+      - name: Lint
+        run: npm run lint

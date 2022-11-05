@@ -1,56 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 body {
-  background-color: #2a2b2a;
+	background-color: #2a2b2a;
 }
 h2 {
-  font-family: 'Alkalami', serif;
-  font-size: 4vh;
-  color: rgb(148, 170, 242);
+	font-family: 'Alkalami', serif;
+	font-size: 4vh;
+	color: rgb(148, 170, 242);
 }
 p {
-  font-family: Lato;
+	font-family: Lato;
 }
 
 input {
-  display: block;
-  margin: 2%;
+	display: block;
+	margin: 2%;
 }
 
 .firsts-selects {
-  width: 40%;
-  display: inline;
+	width: 40%;
+	display: inline;
 }
 .view {
-  font-size: 3.3rem;
+	font-size: 3.3rem;
 }
 
-
-
 .round {
-  border-radius: 50%;
-  width: 10rem !important;
-  height: 10rem;
-  font-size: 4rem;
+	border-radius: 50%;
+	width: 10rem !important;
+	height: 10rem;
+	font-size: 4rem;
 }
 
 .select-title {
-  font-size: 3vh;
-  font-weight: bold;
-  margin: 2% 6%;
-} 
+	font-size: 3vh;
+	font-weight: bold;
+	margin: 2% 6%;
+}
 
 .previus-btn {
-  margin-left: 9%;
+	margin-left: 9%;
 }
 .next-btn {
-  margin-left: 55%;
+	margin-left: 55%;
 }
 
 select {
-  height: 5rem;
-  font-size: 3rem;
+	height: 5rem;
+	font-size: 3rem;
 }
 
 .form-select {
-  font-size: 2.2rem;
+	font-size: 2.2rem;
 }

@@ -1,9 +1,9 @@
 name: Say Hello
 
-on: 
+on:
   push:
-    branches: 
-      - master  
+    branches:
+      - master
 
 jobs:
   hello_world:
